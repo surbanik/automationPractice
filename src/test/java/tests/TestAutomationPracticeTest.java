@@ -13,10 +13,10 @@ public class TestAutomationPracticeTest extends TestBase {
         new MainPage(driver)
                 .goToBlousesPage();
 
-        new BlousesPage(driver)
-                .clickOnQuickViewIcon();
-
-        new ProductDetailPage(driver)
-                .hoverMinPicturesFor3s();
+//        new BlousesPage(driver)
+//                .clickOnQuickViewIcon();
+//
+//        new ProductDetailPage(driver)
+//                .hoverMinPicturesFor3s();
     }
 }
