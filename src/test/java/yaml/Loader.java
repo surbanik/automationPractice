@@ -22,7 +22,7 @@ public class Loader {
 
     public Loader() throws IOException {
         if (System.getProperty("Env_Val").isEmpty()) {
-            logger.error("Env_Val is not empty");
+            logger.info("Env_Val is not empty");
             for (EnvDetails env : createEnvList()) {
                 if (env.getActive().equals("y")) {
                     System.setProperty("webURL", env.getWebUrl());
@@ -35,7 +35,7 @@ public class Loader {
                 }
             }
         }else if(!System.getProperty("Env_Val").isEmpty()){
-            logger.error("Env_Val is empty");
+            logger.info("Env_Val is empty");
             for (EnvDetails env : createEnvList()) {
                 if (env.getEnvName().equals(System.getProperty("Env_Val"))) {
                     System.setProperty("webURL", env.getWebUrl());
@@ -48,7 +48,7 @@ public class Loader {
                 }
             }
         }else{
-            logger.error("niepoprawna nazwa środowiska");
+            logger.info("niepoprawna nazwa środowiska");
         }
     }
 }
