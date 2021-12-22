@@ -1,17 +1,17 @@
 environments:
   dev:
-    envName: automationPractice
+    envName: dev
     webUrl: http://automationpractice.com/
-    title: My - store
-    browser: chrome
+    title: automationPractice
+    browser: firefox
     userEmail: test@test.pl
     userPassword: testtest
     loginFailMessage: Authentication failed.
     active: y
   test:
-    envName: selenium-advance
+    envName: test
     webUrl: http://146.59.32.4/
-    title: TesterSii
+    title: selenium-advance
     browser: chrome
     userEmail: test@test.pl
     userPassword: testtest
