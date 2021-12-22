@@ -15,7 +15,11 @@ pipeline {
                 bat 'mvn clean test'
                 echo 'Test completed'
             }
-
+            post {
+               always{
+                junit '**/target/surefire-reports/TEST-*.xml'
+                }
+            }
         }
     }
 }
