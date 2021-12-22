@@ -10,7 +10,8 @@ environments:
     active: y
   test:
     envName: test
-    webUrl: http://146.59.32.4/
+#    webUrl: http://146.59.32.4/
+    webUrl: http://automationpractice.com/
     title: selenium-advance
     browser: chrome
     userEmail: test@test.pl
