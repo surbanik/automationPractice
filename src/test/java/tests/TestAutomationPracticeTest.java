@@ -6,7 +6,7 @@ import pages.MainPage;
 import pages.ProductDetailPage;
 import testBase.TestBase;
 
-public class AutomationPracticeTest extends TestBase {
+public class TestAutomationPracticeTest extends TestBase {
 
     @Test
     public void picturesTest() throws InterruptedException {
