@@ -95,7 +95,7 @@
                 <version>${maven-surefire.version}</version>
                 <configuration>
                     <systemPropertyVariables> <!-- <Env_Val>${Env_Value}</Env_Val>-->
-                        <Env_Val>test</Env_Val>
+                        <Env_Val>dev</Env_Val>
                     </systemPropertyVariables>
                 </configuration>
             </plugin>
