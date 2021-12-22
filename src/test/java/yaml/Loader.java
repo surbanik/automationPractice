@@ -47,11 +47,8 @@ public class Loader {
                     break;
                 }
             }
-
         }else{
             logger.error("niepoprawna nazwa środowiska");
         }
     }
-
-
 }
