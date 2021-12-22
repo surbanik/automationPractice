@@ -41,14 +41,12 @@ public class TestBase {
     static void setDriver() throws IOException {
         loader = new Loader();
         browserEnvironment = new BrowserEnvironment();
-//        driverFactory = new DriverFactory();
         logger.info("Webdriver initialized");
     }
 
     @BeforeEach
     void setUp() {
         driver = browserEnvironment.getDriver();
-//        driver = driverFactory.getDriver(loader.getBrowser());
         logger.info("Webdriver window start");
     }
 
